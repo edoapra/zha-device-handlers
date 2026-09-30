@@ -70,6 +70,5 @@ class SonoffIlluminationCluster(CustomCluster):
         entity_type=EntityType.STANDARD,
         translation_key="illumination",
         fallback_name="Illumination",
-    )
-    .add_to_registry()
+    ).add_to_registry()
 )
